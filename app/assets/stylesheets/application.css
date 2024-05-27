@@ -1,3 +1,43 @@
+#container {
+  justify-content: center;
+  color: black;
+  background-color: antiquewhite;
+}
+
+.div1 {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-family: fantasy;
+  height: 50px;
+}
+
+.quest {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-family: fantasy;
+  height: 50px;
+}
+
+.question {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-family: fantasy;
+  height: 50px;
+}
+
+.ques {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-family: fantasy;
+  height: 50px;
+}
+
+
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.

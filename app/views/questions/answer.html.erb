@@ -1,0 +1,20 @@
+<div id="container">
+  <div class="div1">
+    <h1><strong>Coach Answer</strong></h1>
+      </div>
+        <div class= "quest">
+          <p><strong>You question: </strong><%=@answer%></p>
+        </div>
+      <div class= "question">
+        <%= link_to 'Ask another question', ask_path %>
+      </div>
+    <div class= "ques">
+      <%if @answer == "I'm going to work"%>
+          <div><p><strong>great</strong></p></div>
+        <%elsif @answer&.end_with?('?')%>
+          <div><p><strong>Silly question, get dressed and go to work!</strong></p></div>
+        <%else%>
+          <div><p><strong>I don't care, get dressed and go to work!</strong></p></div>
+      <%end%>
+    </div>
+</div>
